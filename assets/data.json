@@ -2,7 +2,7 @@
     "0": {
         "name": "vamosla",
         "pergunta": [
-            "Olá, tudo bom? Eu sou o Lize e estou aqui para te ajudar a realizar a usar o seu sonho, para isso, eu vou te fazer algumas perguntas simples.",
+            "Olá, tudo bom? Eu sou o Lize e estou aqui para te ajudar a realizar o seu sonho, para isso vou te fazer algumas perguntas simples.",
             "Você ja investiu alguma vez?"
         ],
         "type": "buttons",
@@ -24,7 +24,7 @@
             "Não",
             "Talvez"
         ],
-        "resposta": "TEXTO DE RESPOSTA",
+        "resposta": "Estamos quase lá!",
         "placeholder": ""
     },
     "2": {
@@ -34,7 +34,7 @@
         ],
         "type": "input",
         "buttons": {},
-        "resposta": "TEXTO DE RESPOSTA",
+        "resposta": "Agora por último",
         "placeholder": "Insira o seu valor fixo mensal"
     },
     "3": {
@@ -44,7 +44,7 @@
         ],
         "type": "range",
         "buttons": {},
-        "resposta": "TEXTO DE RESPOSTA",
+        "resposta": "",
         "placeholder": "Insira quanto você está disposto a guadar"
     },
     "4": {
