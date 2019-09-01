@@ -48,7 +48,7 @@ function InsereFalaComAvatar(frase, idBalao) {
         irparaConversa();
 
     }, 500);
-    $('#chat').append('<div class="col-12 col-sm-8 chatBalaoBot"><img src="assets/images/avataruser.png" alt=""><span class="balao ' + idBalao + '"></span></div>');
+    $('#chat').append('<div class="col-12 col-sm-8 chatBalaoBot"><img src="assets/images/Elli.png" alt=""><span class="balao ' + idBalao + '"></span></div>');
 }
 
 function InsereFala(frase, idBalao) {

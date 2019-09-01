@@ -1,4 +1,10 @@
 @media screen and (min-width: $xs) {
+    .bold {
+        font-weight: bold;
+    }
+    body {
+        font-family: Metropolis;
+    }
     #header-produto {
         background: #E5E5E5;
         margin: -15px -15px;
