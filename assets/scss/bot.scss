@@ -1,0 +1,152 @@
+@media screen and (min-width: $xs) {
+    body {
+        background: #F6F9FC;
+    }
+    #ChatBallons {
+        max-height: calc(100vh - 196px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        .balao {
+            width: 100%;
+            display: block;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            padding: 16px;
+            padding-right: 69px;
+            margin-top: 16px;
+            position: relative;
+            word-wrap: break-word;
+            width: fit-content;
+            .horaBalao {
+                position: absolute;
+                right: 10px;
+                font-size: 12px;
+                line-height: 28px;
+                bottom: 14px;
+            }
+            a {
+                color: #C3A317;
+                text-decoration: underline;
+                background-color: transparent;
+            }
+        }
+        .container {
+            padding: 16px 0;
+            .chatBalaoBot {
+                bottom: 30px;
+                opacity: 0;
+                img {
+                    margin-top: 16px;
+                    float: left;
+                }
+                .balao {
+                    margin-left: 70px;
+                }
+            }
+            .chatBalaoUser {
+                opacity: 0;
+                img {
+                    margin-top: 32px;
+                    float: right;
+                    margin-left: 0px;
+                }
+                .balao {
+                    margin-right: 20px;
+                    float: right;
+                    margin-top: 32px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+    #ChatInputs {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 24px 0;
+        input {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            height: 56px;
+            border: 0;
+            font-size: 16px;
+            line-height: 28px;
+            padding: 20px 24px;
+        }
+        .inputText {
+            border: none;
+            position: absolute;
+            right: 10px;
+            top: 9px;
+            background: url(../images/arrow.svg);
+            background-repeat: no-repeat;
+            color: transparent;
+            background-position: center;
+            z-index: 5;
+        }
+        .inputButton {
+            background: #72A065;
+            border-radius: 8px;
+            font-size: 20px;
+            line-height: 28px;
+            padding: 12px 32px;
+            border: 0;
+            margin-right: 24px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+    .obrigado {
+        opacity: 0;
+        .row {
+            height: calc(100vh - 74px);
+        }
+        display: none;
+        h1 {
+            font-size: 32px;
+            line-height: 28px;
+            margin: 16px 0;
+        }
+        p {
+            font-family: UniSans;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .buttonVoltar {
+            background: #4A4A48;
+            border-radius: 4px;
+            font-size: 20px;
+            line-height: 28px;
+            padding: 12px 72px;
+            border: 0;
+            margin-top: 32px;
+        }
+    }
+}
+
+@media screen and (min-width: $sm) {
+    header {
+        padding: 20px 0;
+    }
+    .inputButton {
+        &:first-child {
+            margin-right: 56px;
+        }
+        padding: 12px 72px;
+    }
+    #ChatBallons {
+        max-height: calc(100vh - 156px);
+        .container {
+            padding: 48px 0;
+        }
+    }
+}
+
+@media screen and (min-width: $md) {}
+
+@media screen and (min-width: $lg) {}
+
+@media screen and (min-width: $xl) {}

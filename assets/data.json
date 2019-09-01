@@ -1,0 +1,58 @@
+{
+    "0": {
+        "name": "vamosla",
+        "pergunta": [
+            "Olá, tudo bom? Eu sou o Lize e estou aqui para te ajudar a realizar a usar o seu sonho, para isso, eu vou te fazer algumas perguntas simples.",
+            "Você ja investiu alguma vez?"
+        ],
+        "type": "buttons",
+        "buttons": [
+            "Sim",
+            "Não"
+        ],
+        "resposta": "TEXTO DE RESPOSTA",
+        "placeholder": ""
+    },
+    "1": {
+        "name": "perdas",
+        "pergunta": [
+            "Você aceitaria perdas em busca da possibilidade de ganhos elevados no longo prazo?"
+        ],
+        "type": "buttons",
+        "buttons": [
+            "Sim",
+            "Não",
+            "Talvez"
+        ],
+        "resposta": "TEXTO DE RESPOSTA",
+        "placeholder": ""
+    },
+    "2": {
+        "name": "ganhos",
+        "pergunta": [
+            "Qual o valor que você tem fixo por mês?"
+        ],
+        "type": "input",
+        "buttons": {},
+        "resposta": "TEXTO DE RESPOSTA",
+        "placeholder": "Insira o seu valor fixo mensal"
+    },
+    "3": {
+        "name": "range",
+        "pergunta": [
+            "Quanto você está disposto a guardar para o seu sonho por mês?"
+        ],
+        "type": "range",
+        "buttons": {},
+        "resposta": "TEXTO DE RESPOSTA",
+        "placeholder": "Insira quanto você está disposto a guadar"
+    },
+    "4": {
+        "name": "none",
+        "pergunta": [],
+        "type": "buttons",
+        "buttons": [],
+        "resposta": [],
+        "placeholder": " "
+    }
+}

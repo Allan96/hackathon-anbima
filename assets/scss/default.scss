@@ -1,0 +1,237 @@
+@media screen and (min-width: $xs) {
+    #header-produto {
+        background: #E5E5E5;
+        margin: -15px -15px;
+        padding: 15px 0;
+    }
+    .app-body {
+        max-height: calc(100vh - 48px);
+        overflow: scroll;
+        padding-bottom: 76px;
+        h1 {
+            font-size: 28px;
+            line-height: 33px;
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 33px;
+        }
+        .form-control {
+            border: 0;
+            border-radius: 0;
+            border-bottom: 2px solid #2C3A5F;
+            margin-top: 48px;
+            &:focus,
+            &:active {
+                border-color: #FFBA5F;
+                box-shadow: 0 0 0 0;
+            }
+        }
+        a {
+            display: block;
+            color: #000000;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            margin-top: 20px;
+        }
+        legend,
+        span {
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .user-avatar {
+            img {
+                width: 100%;
+            }
+        }
+        .legend-user {
+            font-size: 14px;
+            line-height: 16px;
+            img {
+                margin-left: 5px;
+            }
+        }
+        .card-perfil {
+            min-height: 170px;
+            background: #FFFFFF;
+            box-shadow: -7px 0px 39px rgba(153, 153, 153, 0.14);
+            border-radius: 4px;
+            margin-top: 45px;
+            padding: 12px;
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                margin-bottom: 0;
+            }
+            .img {
+                background: url(../images/img-1.png);
+                background-size: cover;
+                height: 150px;
+                margin: -13px;
+                margin-bottom: 10px;
+            }
+            .img-2 {
+                background: url(../images/img-2.png);
+                background-size: cover;
+                height: 150px;
+                margin: -13px;
+                margin-bottom: 10px;
+            }
+        }
+        .quero-mais {
+            margin-top: 35px;
+            background: #C4C4C4;
+            height: 126px;
+            padding: 16px;
+            p {
+                width: 50%;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 23px;
+            }
+        }
+        .posso-ajudar {
+            margin-top: 35px;
+            .ver-mais {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                margin-top: 24px;
+            }
+        }
+        .user-avatar-mini {
+            width: 32px;
+            height: 32px;
+        }
+        .money {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 33px;
+        }
+        .range-valor {
+            margin-top: 50%;
+            .btn {
+                margin-top: 129px;
+            }
+        }
+        .salve-range {
+            width: 157px;
+            padding: 8px 0;
+        }
+        .onboarding {
+            margin: 0 -15px;
+            .flickity-slider {
+                transform: none !important;
+            }
+            .carousel-cell {
+                background: #C4C4C4;
+                height: 316px;
+                width: 100%;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+                left: 0 !important;
+                &:nth-child(1),
+                &:nth-child(3) {
+                    background: url(../images/carousel-2.svg);
+                    background-size: cover;
+                    background-position: 0px;
+                }
+                &:nth-child(2),
+                &:nth-child(4) {
+                    background: url(../images/carousel-1.svg);
+                    background-size: cover;
+                    background-position: 0px;
+                    color: white;
+                }
+            }
+            .is-selected {
+                opacity: 1!important;
+                z-index: 0
+            }
+            .flickity-page-dots .dot {
+                display: inline-block;
+                width: 40px;
+                height: 7px;
+                margin: 0 8px;
+                background: #ffba5f;
+                border-radius: 15px;
+                opacity: .25;
+                cursor: pointer;
+            }
+        }
+        .facebook,
+        .google {
+            font-size: 16px;
+            line-height: 16px;
+            width: 80%;
+            padding: 16px 0;
+            background: #F7F9FB;
+            border-radius: 8px;
+            border: 0;
+            color: #2C3A5F;
+            img {
+                margin-right: 5px;
+            }
+        }
+        .login {
+            width: 80%;
+            padding: 16px 0;
+            font-size: 16px;
+            line-height: 16px;
+            background: #72A065;
+            border-radius: 8px;
+            border: 0;
+            margin-top: 20px;
+        }
+        .cartao {
+            background: #C4C4C4;
+            height: 180px;
+        }
+        .info-fundo {
+            float: left;
+        }
+        .info-taxa {
+            float: right;
+        }
+        hr {
+            height: 2px;
+            opacity: 1;
+            background: #2C3A5F;
+        }
+        .objetivo-interno {
+            background: #FFFFFF!important;
+            box-shadow: 0px 4px 19px rgba(69, 66, 66, 0.25);
+            .img {
+                height: 150px;
+                background: url(../images/img-2.png)!important;
+                background-size: cover!important;
+                margin: 0 -15px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background: #E5E5E5;
+        padding: 8px 0;
+        .page {
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+        }
+        .active {}
+    }
+}
+
+@media screen and (min-width: $sm) {}
+
+@media screen and (min-width: $md) {}
+
+@media screen and (min-width: $lg) {}
+
+@media screen and (min-width: $xl) {}
